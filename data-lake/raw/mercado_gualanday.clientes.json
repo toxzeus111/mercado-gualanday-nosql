@@ -1,0 +1,8 @@
+[{
+  "_id": {
+    "$oid": "693d843d6a98a1b7e842be0f"
+  },
+  "nombre": "Juan Pérez",
+  "telefono": "3001234567",
+  "frecuente": true
+}]

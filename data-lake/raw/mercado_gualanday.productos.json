@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "693d840b6a98a1b7e842be0b"
+  },
+  "nombre": "Arroz Diana 1kg",
+  "categoria": "Granos",
+  "precio": 4500,
+  "stock": 120,
+  "proveedor": {
+    "nombre": "Distribuidora Central",
+    "telefono": "3009876543"
+  }
+}]

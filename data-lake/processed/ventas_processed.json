@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "693d846a6a98a1b7e842be15"
+  },
+  "fecha": "2025-12-13T10:00:00Z",
+  "cliente": "Juan Pérez",
+  "productos": [
+    {
+      "nombre": "Arroz Diana 1kg",
+      "cantidad": 2,
+      "precio_unitario": 4500
+    }
+  ],
+  "total": 9000,
+  "metodo_pago": "Efectivo"
+}]
