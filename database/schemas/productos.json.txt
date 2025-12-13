@@ -1,0 +1,10 @@
+{
+  "nombre": "string",
+  "categoria": "string",
+  "precio": "number",
+  "stock": "number",
+  "proveedor": {
+    "nombre": "string",
+    "telefono": "string"
+  }
+}

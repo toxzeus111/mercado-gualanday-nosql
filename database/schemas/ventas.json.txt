@@ -1,0 +1,13 @@
+{
+  "fecha": "date",
+  "cliente": "string",
+  "productos": [
+    {
+      "nombre": "string",
+      "cantidad": "number",
+      "precio_unitario": "number"
+    }
+  ],
+  "total": "number",
+  "metodo_pago": "string"
+}
