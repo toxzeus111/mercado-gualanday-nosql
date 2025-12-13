@@ -10,7 +10,7 @@ información para análisis masivo y toma de decisiones.
 
 ## Descripción del Proyecto
 
-Este proyecto tiene como objetivo la gestión de un mercado simulado llamado **Mercado Gualanday**, usando **MongoDB** como base de datos NoSQL. Se incluyen las colecciones de clientes, productos y ventas, con datos reales de ejemplo, y se generan informes analíticos sobre ventas, ingresos y clientes frecuentes.
+Este proyecto tiene como objetivo la gestión de **Mercado Gualanday**, usando **MongoDB** como base de datos NoSQL. Se incluyen las colecciones de clientes, productos y ventas, con datos reales de ejemplo, y se generan informes analíticos sobre ventas, ingresos y clientes frecuentes.
 
 El proyecto permite manejar grandes volúmenes de datos de manera flexible y escalable, demostrando cómo NoSQL puede ser útil en entornos comerciales.
 
