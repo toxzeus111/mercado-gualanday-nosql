@@ -65,3 +65,29 @@ with open("data-lake/analytics/ingresos_totales.json", "w", encoding="utf-8") as
     json.dump({"total_ingresos": total_ingresos}, f, indent=4)
 
 print(" Analytics generados correctamente en data-lake/analytics")
+
+# -----------------------------
+# 4️⃣ Ventas por método de pago
+# (MANTENIMIENTO PERFECTIVO)
+# -----------------------------
+
+ventas_por_metodo_pago = {}
+
+for venta in ventas:
+    metodo = venta["metodo_pago"]
+    total = venta["total"]
+
+    if metodo not in ventas_por_metodo_pago:
+        ventas_por_metodo_pago[metodo] = 0
+
+    ventas_por_metodo_pago[metodo] += total
+
+resultado_metodo_pago = [
+    {"metodo_pago": k, "total_vendido": v}
+    for k, v in ventas_por_metodo_pago.items()
+]
+
+with open("data-lake/analytics/ventas_por_metodo_pago.json", "w", encoding="utf-8") as f:
+    json.dump(resultado_metodo_pago, f, indent=4)
+
+print(" Ventas por método de pago generadas correctamente")
